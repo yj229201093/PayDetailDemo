@@ -10,4 +10,9 @@
 
 @interface PayDetailsCollectionViewCell : UICollectionViewCell
 
+@property (strong, nonatomic) UIImageView *avatarImageView; // 头像
+@property (strong, nonatomic) UILabel *userNameLabel; // 用户名
+@property (strong, nonatomic) UILabel *amountLabel; // 金额
+
+
 @end

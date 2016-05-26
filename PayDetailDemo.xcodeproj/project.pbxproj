@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B07A72B1BE243AC0070B05A /* ApplayForLoanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B07A72A1BE243AC0070B05A /* ApplayForLoanModel.m */; settings = {ASSET_TAGS = (); }; };
+		6B1B40031BE22DE200130768 /* ApplayForLoanDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B40021BE22DE200130768 /* ApplayForLoanDetailTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		6B1B40051BE2312C00130768 /* liucheng_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B1B40041BE2312C00130768 /* liucheng_1@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6B1B40071BE2313600130768 /* liucheng@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B1B40061BE2313600130768 /* liucheng@2x.png */; settings = {ASSET_TAGS = (); }; };
 		6BE980981BE0635F00D9C1F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE980971BE0635F00D9C1F4 /* main.m */; };
 		6BE9809B1BE0635F00D9C1F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9809A1BE0635F00D9C1F4 /* AppDelegate.m */; };
 		6BE9809E1BE0635F00D9C1F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9809D1BE0635F00D9C1F4 /* ViewController.m */; };
@@ -15,6 +19,11 @@
 		6BE980A61BE0636000D9C1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE980A41BE0636000D9C1F4 /* LaunchScreen.storyboard */; };
 		6BE980B11BE0636000D9C1F4 /* PayDetailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE980B01BE0636000D9C1F4 /* PayDetailDemoTests.m */; };
 		6BE980BC1BE0636100D9C1F4 /* PayDetailDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE980BB1BE0636100D9C1F4 /* PayDetailDemoUITests.m */; };
+		6BE980CD1BE064A100D9C1F4 /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE980CA1BE064A100D9C1F4 /* UIColor+RandomColor.m */; settings = {ASSET_TAGS = (); }; };
+		6BE980CE1BE064A100D9C1F4 /* UIView+CustomFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE980CC1BE064A100D9C1F4 /* UIView+CustomFrame.m */; settings = {ASSET_TAGS = (); }; };
+		6BE980D11BE0762E00D9C1F4 /* all@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE980CF1BE0762E00D9C1F4 /* all@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6BE980D21BE0762E00D9C1F4 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE980D01BE0762E00D9C1F4 /* selected@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6BE980D51BE07F9400D9C1F4 /* PayDetailsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE980D41BE07F9400D9C1F4 /* PayDetailsCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B07A7291BE243AC0070B05A /* ApplayForLoanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplayForLoanModel.h; sourceTree = "<group>"; };
+		6B07A72A1BE243AC0070B05A /* ApplayForLoanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplayForLoanModel.m; sourceTree = "<group>"; };
+		6B1B40011BE22DE200130768 /* ApplayForLoanDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplayForLoanDetailTableViewCell.h; sourceTree = "<group>"; };
+		6B1B40021BE22DE200130768 /* ApplayForLoanDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplayForLoanDetailTableViewCell.m; sourceTree = "<group>"; };
+		6B1B40041BE2312C00130768 /* liucheng_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liucheng_1@2x.png"; sourceTree = "<group>"; };
+		6B1B40061BE2313600130768 /* liucheng@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liucheng@2x.png"; sourceTree = "<group>"; };
 		6BE980931BE0635F00D9C1F4 /* PayDetailDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayDetailDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE980971BE0635F00D9C1F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BE980991BE0635F00D9C1F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,14 @@
 		6BE980B71BE0636000D9C1F4 /* PayDetailDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayDetailDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE980BB1BE0636100D9C1F4 /* PayDetailDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayDetailDemoUITests.m; sourceTree = "<group>"; };
 		6BE980BD1BE0636100D9C1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE980C91BE064A100D9C1F4 /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		6BE980CA1BE064A100D9C1F4 /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
+		6BE980CB1BE064A100D9C1F4 /* UIView+CustomFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomFrame.h"; sourceTree = "<group>"; };
+		6BE980CC1BE064A100D9C1F4 /* UIView+CustomFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomFrame.m"; sourceTree = "<group>"; };
+		6BE980CF1BE0762E00D9C1F4 /* all@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all@2x.png"; sourceTree = "<group>"; };
+		6BE980D01BE0762E00D9C1F4 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+		6BE980D31BE07F9400D9C1F4 /* PayDetailsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayDetailsCollectionViewCell.h; sourceTree = "<group>"; };
+		6BE980D41BE07F9400D9C1F4 /* PayDetailsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayDetailsCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +124,14 @@
 		6BE980951BE0635F00D9C1F4 /* PayDetailDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6B1B40061BE2313600130768 /* liucheng@2x.png */,
+				6B1B40041BE2312C00130768 /* liucheng_1@2x.png */,
+				6BE980CF1BE0762E00D9C1F4 /* all@2x.png */,
+				6BE980D01BE0762E00D9C1F4 /* selected@2x.png */,
+				6BE980C91BE064A100D9C1F4 /* UIColor+RandomColor.h */,
+				6BE980CA1BE064A100D9C1F4 /* UIColor+RandomColor.m */,
+				6BE980CB1BE064A100D9C1F4 /* UIView+CustomFrame.h */,
+				6BE980CC1BE064A100D9C1F4 /* UIView+CustomFrame.m */,
 				6BE980991BE0635F00D9C1F4 /* AppDelegate.h */,
 				6BE9809A1BE0635F00D9C1F4 /* AppDelegate.m */,
 				6BE9809C1BE0635F00D9C1F4 /* ViewController.h */,
@@ -109,7 +140,12 @@
 				6BE980A21BE0636000D9C1F4 /* Assets.xcassets */,
 				6BE980A41BE0636000D9C1F4 /* LaunchScreen.storyboard */,
 				6BE980A71BE0636000D9C1F4 /* Info.plist */,
-				6BE980961BE0635F00D9C1F4 /* Supporting Files */,
+				6BE980D31BE07F9400D9C1F4 /* PayDetailsCollectionViewCell.h */,
+				6BE980D41BE07F9400D9C1F4 /* PayDetailsCollectionViewCell.m */,
+				6B1B40011BE22DE200130768 /* ApplayForLoanDetailTableViewCell.h */,
+				6B1B40021BE22DE200130768 /* ApplayForLoanDetailTableViewCell.m */,
+				6B07A7291BE243AC0070B05A /* ApplayForLoanModel.h */,
+				6B07A72A1BE243AC0070B05A /* ApplayForLoanModel.m */,
 			);
 			path = PayDetailDemo;
 			sourceTree = "<group>";
@@ -120,11 +156,13 @@
 				6BE980971BE0635F00D9C1F4 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ../PayDetailDemo;
 			sourceTree = "<group>";
 		};
 		6BE980AF1BE0636000D9C1F4 /* PayDetailDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				6BE980961BE0635F00D9C1F4 /* Supporting Files */,
 				6BE980B01BE0636000D9C1F4 /* PayDetailDemoTests.m */,
 				6BE980B21BE0636000D9C1F4 /* Info.plist */,
 			);
@@ -244,8 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BE980A61BE0636000D9C1F4 /* LaunchScreen.storyboard in Resources */,
+				6B1B40051BE2312C00130768 /* liucheng_1@2x.png in Resources */,
+				6BE980D21BE0762E00D9C1F4 /* selected@2x.png in Resources */,
 				6BE980A31BE0636000D9C1F4 /* Assets.xcassets in Resources */,
 				6BE980A11BE0635F00D9C1F4 /* Main.storyboard in Resources */,
+				6BE980D11BE0762E00D9C1F4 /* all@2x.png in Resources */,
+				6B1B40071BE2313600130768 /* liucheng@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B07A72B1BE243AC0070B05A /* ApplayForLoanModel.m in Sources */,
+				6B1B40031BE22DE200130768 /* ApplayForLoanDetailTableViewCell.m in Sources */,
+				6BE980CD1BE064A100D9C1F4 /* UIColor+RandomColor.m in Sources */,
 				6BE9809E1BE0635F00D9C1F4 /* ViewController.m in Sources */,
+				6BE980D51BE07F9400D9C1F4 /* PayDetailsCollectionViewCell.m in Sources */,
 				6BE9809B1BE0635F00D9C1F4 /* AppDelegate.m in Sources */,
 				6BE980981BE0635F00D9C1F4 /* main.m in Sources */,
+				6BE980CE1BE064A100D9C1F4 /* UIView+CustomFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +543,7 @@
 				6BE980C21BE0636100D9C1F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BE980C31BE0636100D9C1F4 /* Build configuration list for PBXNativeTarget "PayDetailDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +552,7 @@
 				6BE980C51BE0636100D9C1F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BE980C61BE0636100D9C1F4 /* Build configuration list for PBXNativeTarget "PayDetailDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +561,7 @@
 				6BE980C81BE0636100D9C1F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
